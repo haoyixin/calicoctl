@@ -33,7 +33,8 @@ import:
 - package: github.com/sirupsen/logrus
   version: v1.0.4
 - package: github.com/projectcalico/libcalico-go
-  version: release-v3.1
+  repo: https://github.com/haoyixin/libcalico-go.git
+  version: qihoo
   subpackages:
   - lib/apis/v3
   - lib/clientv3
